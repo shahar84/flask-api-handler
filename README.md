@@ -7,7 +7,7 @@ At my company, we've been using Flask-RESTful for a lot of projects for the past
 This small module replace for us this functionality, so I've decided to share it with whoever want to give it a try :wink: 
 
 ## Getting Started
-This wrapper helps davide the Flask App into modules and to use __Classes__ instead of functions for views.
+This wrapper helps divide the Flask App into modules and to use __Classes__ instead of functions for views.
 
 Just run pip install and you are good to go: instructions
 ```bash
