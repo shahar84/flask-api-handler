@@ -7,8 +7,10 @@ def readme():
 
 
 setup(name='flask-api-handler',
-      version='0.1',
+      version='0.1.1',
       description='A small wrapper for flask app to ease the endpoints creation',
+      long_description='This wrapper helps davide the Flask App into modules and to use Class handlers instead of '
+                       'functions for views',
       keywords='Flask API REST flask-restful',
       url='https://github.com/shahar84/flask-api-handler',
       author='Shahar Polak',
