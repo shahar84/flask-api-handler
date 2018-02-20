@@ -7,7 +7,7 @@ def readme():
 
 
 setup(name='flask-api-handler',
-      version='0.1.4',
+      version='0.1.5',
       description='A small wrapper for flask app to ease the endpoints creation',
       long_description=readme(),
       keywords='Flask API REST flask-restful',
