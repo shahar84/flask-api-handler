@@ -19,6 +19,12 @@ Getting Started
 This wrapper helps davide the Flask App into modules and to use
 **Classes** instead of functions for views.
 
+Just run pip install and you are good to go: instructions
+
+.. code:: bash
+
+    $ pip install flask-api-handler
+
 Prerequisites
 -------------
 
