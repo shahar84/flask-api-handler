@@ -15,9 +15,9 @@ The only requirement for this project is Flask.
 ## Usage
 ```python
 from flask import Flask
+from flask import jsonify
 from flask_api_handler import ApiHandler
 
-form example import UserHandler
 form example import PaymentHandler
 
 app = Flask(__name__)
@@ -25,11 +25,17 @@ app = Flask(__name__)
 # Init the api handler 
 api = ApiHandler(app)
 
+class UserHandler(object):
+    def get(self):
+        return jsonify({"user": "user object example"})
+    def put(self):
+        return jsonify({"user": "update user example"})
+
 # Add the endpoints 
 api.add_handler('/user', UserHandler)
 api.add_handler('/payment', PaymentHandler)
 ```
 
 ## TODO
-*   Make pip installable
+*   ~~Make pip installable~~ - DONE
 *   Add tests
