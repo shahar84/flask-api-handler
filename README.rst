@@ -16,7 +16,7 @@ share it with whoever want to give it a try :wink:
 Getting Started
 ---------------
 
-This wrapper helps davide the Flask App into modules and to use
+This wrapper helps divide the Flask App into modules and to use
 **Classes** instead of functions for views.
 
 Just run pip install and you are good to go:
