@@ -9,7 +9,7 @@ This small module replace for us this functionality, so I've decided to share it
 ## Getting Started
 This wrapper helps davide the Flask App into modules and to use __Classes__ instead of functions for views.
 
-Just run pip install and you are good to go: instructions
+Just run pip install and you are good to go: 
 ```bash
 $ pip install flask-api-handler
 ```
