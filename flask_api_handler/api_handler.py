@@ -23,7 +23,7 @@ class ApiHandler(object):
         Args:
             url: The endpoint
             cls: The Handler
-            methods: Allowed Methods
+            methods (list): Allowed Methods (['GET', 'POST', 'PUT', 'DELETE', 'PATCH'])
 
         Returns:
             None
